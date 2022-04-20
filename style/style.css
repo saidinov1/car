@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-image: url(../img/ttss.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    justify-content: space-around;
+}
+.menu img{
+    position: absolute;
+    height: 23rem;
+ top: 31rem;
+ left: 11rem;
+   animation-name:img;
+   animation-iteration-count: infinite;
+   animation-duration: 0.1s;
+  
+}
+.flex img{
+  position: absolute;
+    height: 23rem;
+    top: 31rem;
+    left: 94rem;
+    animation-name:img;
+    animation-iteration-count: infinite;
+    animation-duration: 0.1s;
+}
+@keyframes img{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+.lin{
+    background-color: black;
+    height: 20px;
+    position: absolute;
+   
+}
